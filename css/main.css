@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+BODY {
+	font-family: 'Architects Daughter', cursive;
+}
+IFRAME {
+	width:100%;
+	height:auto;
+}
+.ui-header, .ui-footer {
+	border:0;
+}
+.header IMG, .footer IMG{
+	float:left;
+	width:100%;
+}
+.ui-content {
+	background-image:url(../images/body.png);
+	background-repeat:repeat-y;
+	background-position:top center;
+	background-size:100% auto;
+}
+#contenido {
+	float:left;
+	width:65%;
+	margin:0 0 0 15%;
+}
+#todo-items {
+	list-style: none;
+	margin: 0;
+}
+#todo-items LI {
+	padding: 0.5em 1em;
+	border-bottom:2px #BFBFBF solid;
+}
+#todo-items LI SPAN {
+	margin-left:10px;
+}
+#tituloapp {
+	float:right;
+	width:17.5%;
+}
+#tituloapp IMG {
+	float:left;
+	width:100%;
+}
